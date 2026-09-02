@@ -1,0 +1,15 @@
+
+
+spring:
+  application:
+    name: product-service
+
+
+server:
+  port: 8081
+
+app:
+  title: ${TEST_SECRET} # 💡 SSM에서 가져온 시크릿을 ${}로 참조합니다.
+  subtitle: ${SUBTITLE}
+  awstitle: ${AWS_SECRET} # 💡 Secrets Manager에서 가져온 시크릿을 ${}로 참조합니다.
+
