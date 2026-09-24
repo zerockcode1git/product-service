@@ -27,7 +27,7 @@ spec:
    spec:
      containers:
        - name: product-service
-         image: zerockcode1/product-service:sha-6a06e5e
+         image: zerockcode1/product-service:sha-1b6c063
          imagePullPolicy: Always
          ports:
            - containerPort: 8081
